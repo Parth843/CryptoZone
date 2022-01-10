@@ -1,9 +1,23 @@
 import React from "react";
 
+import {Navbar} from "./components"
+
+import {Switch, Route, Link} from 'react-router-dom'
+import {Layout, Typography, Space} from 'antd'
+
+import './App.css'
 export default function App() {
     return (
-        <div>
-            <h1>Cryptoverse</h1>
+        <div className="app">
+            <div className="navbar">
+                <Navbar />
+            </div>
+            <div className="main">
+
+            </div>
+            <div className="footer">
+
+            </div>
         </div>
     )
 } 
