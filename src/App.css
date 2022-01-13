@@ -13,8 +13,8 @@
     box-sizing: border-box;
 }
 
-a:hover{
-    color: var(--pink) !important;
+.ant-menu-item:hover{
+    background-color: var(--pink) !important;
 }
 
 .app{
